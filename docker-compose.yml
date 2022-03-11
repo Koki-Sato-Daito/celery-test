@@ -9,6 +9,14 @@ services:
     tty: true
     volumes:
       - .:/usr/local/src
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres
+    ports:
+        - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: postgres
   redis:
     image: "redis:latest"
     ports:
