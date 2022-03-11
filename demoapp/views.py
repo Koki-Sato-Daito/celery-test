@@ -5,7 +5,7 @@ from celery.result import AsyncResult
 
 from demoapp.models import Widget
 from demoapp.forms import WidgetForm
-from config.tasks import count_widgets, rename_widget
+from proj.tasks import count_widgets, rename_widget
 
 
 class WidgetListView(View):
