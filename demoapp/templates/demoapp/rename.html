@@ -1,0 +1,10 @@
+<html>
+<body>
+	<form method="post">
+	<p>Widgetの名前変更</p>
+	{{ form.as_table }}
+	{% csrf_token %}
+	<button type="submit">送信</button>
+	</form>
+</body>
+</html>
