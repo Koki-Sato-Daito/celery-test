@@ -1,5 +1,5 @@
 ## Qiita記事
-- pagelink
+- [Celery公式チュートリアルを簡単に試せるように要約してみた](https://qiita.com/s17161278/items/d2d9b8524c70f7c7ea93)
 
 
 ## 使い方
